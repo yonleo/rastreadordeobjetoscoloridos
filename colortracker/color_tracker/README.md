@@ -1,11 +1,11 @@
-# 🎯 Rastreador de Objetos Coloridos em Vídeo
+#  Rastreador de Objetos Coloridos em Vídeo
 
 Projeto de **Processamento de Imagens** que detecta e rastreia objetos coloridos
 em tempo real — em vídeos gravados ou diretamente pela webcam.
 
 ---
 
-## 📌 Pipeline de Processamento de Imagens
+##  Pipeline de Processamento de Imagens
 
 ```
 Frame BGR
@@ -42,7 +42,7 @@ independentemente das condições de luz.
 
 ---
 
-## 🗂️ Estrutura do Projeto
+##  Estrutura do Projeto
 
 ```
 color_tracker/
@@ -57,7 +57,7 @@ color_tracker/
 
 ---
 
-## ⚙️ Instalação
+##  Instalação
 
 ```bash
 # 1. Criar ambiente virtual (recomendado)
@@ -71,7 +71,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🚀 Uso
+##  Uso
 
 ### Gerar vídeo de teste (opcional)
 ```bash
@@ -119,7 +119,7 @@ python main.py -c verde vermelho
 
 ---
 
-## 🎨 Cores disponíveis
+##  Cores disponíveis
 
 | Nome        | Cor          |
 |-------------|--------------|
@@ -140,7 +140,7 @@ python main.py --list-colors   # exibe todas com exemplos
 
 ---
 
-## 🔬 Detalhes do Pipeline de P.I.
+##  Detalhes do Pipeline de P.I.
 
 ### Etapa 1 — Transformação de Cor
 ```python
@@ -184,7 +184,7 @@ O centróide de cada objeto é armazenado em um `deque` de tamanho fixo
 
 ---
 
-## 🧩 Extensões sugeridas
+##  Extensões sugeridas
 
 - **Kalman Filter** — suavizar trajetórias e prever posição em frames de oclusão
 - **SORT / DeepSORT** — associar IDs estáveis a múltiplos objetos da mesma cor
@@ -193,7 +193,7 @@ O centróide de cada objeto é armazenado em um `deque` de tamanho fixo
 
 ---
 
-## 📚 Referências
+##  Referências
 
 - Bradski, G. & Kaehler, A. — *Learning OpenCV 3* (O'Reilly, 2016)
 - Gonzalez, R. C. & Woods, R. E. — *Digital Image Processing* (Pearson, 2018)
